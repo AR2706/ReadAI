@@ -8,8 +8,8 @@ import pdfplumber
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 
-# Load model.pkl
-with open("./model2.pkl", "rb") as file:
+# Load model.pkl from the cloned repository directory
+with open("./model/model2.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Extract model components
